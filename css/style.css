@@ -88,6 +88,14 @@ footer a {
   border-radius: 260px;
 }
 
+.container {
+  width: max-content;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 .content {
   display: inline-block;
   vertical-align: top;
