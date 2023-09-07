@@ -105,11 +105,8 @@ footer a {
   width: 28rem;
   height: 34rem;
   border-radius: 20px;
+  background-color: rgba(43, 131, 96, .4);
   box-shadow: 0px 5px 15px 8px rgba(0, 0, 0, .5);
-}
-
-.content:hover {
-  background-color: rgba(43, 131, 96, .2);
 }
 
 .content li {
