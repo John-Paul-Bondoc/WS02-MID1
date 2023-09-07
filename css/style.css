@@ -1,0 +1,210 @@
+@font-face {
+  font-family: FuturaDisplayBQ;
+  src: url(../css/Futura\ Display\ BQ\ Regular.otf);
+}
+
+@font-face {
+  font-family: FuturaLightBT;
+  src: url(../css/FuturaLightBT.ttf);
+}
+
+@font-face {
+  font-family: FuturaMediumBT;
+  src: url(../css/FuturaMediumBT.ttf);
+}
+
+body {
+  background-color: #76BA9F;
+}
+
+header {
+  background-color: #2B835F;
+  width: 100%;
+  height: 640px;
+  margin: 0;
+  padding-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-family: FuturaDisplayBQ;
+  font-size: 66px;
+  color: #FAF7EE;
+  margin-top: 20px;
+  letter-spacing: 1.3px;
+  box-shadow: 0 0 8px 1px rgba(0, 0, 0, .5);
+}
+
+h2 {
+  font-family: FuturaDisplayBQ;
+  letter-spacing: 1.8px;
+  color: #FAF7EE;
+  font-size: 32px;
+  padding-top: 8px;
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+
+hr {
+  margin-top: 5em;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 18px;
+  font-family: FuturaLightBT;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  line-height: 20px;
+  text-indent: 20px;
+  color: #1B1212;
+}
+
+footer {
+  text-align: center;
+  font-family: FuturaLightBT;
+  font-size: 16px;
+  color: #76BA9F;
+  background-color: #2B835F;
+  margin-top: 0;
+}
+
+footer a {
+  color: #76BA9F;
+  text-decoration: none;
+}
+
+.midoriya-img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 500px;
+  height: 485px;
+  border-style: solid;
+  border-color: #76BA9F;
+  border-width: 15px;
+  border-radius: 260px;
+}
+
+.content {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin-left: auto;
+  margin-top: 6em;
+  width: 400px;
+  height: 580px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 15px 8px rgba(0, 0, 0, .5);
+}
+
+.content:hover {
+
+  padding-right: 15px;
+  transition: .4s ease;
+  background-color: rgba(43, 131, 96, .2);
+}
+
+.content li {
+  list-style-type: square;
+  font-family: FuturaLightBT;
+  font-size: 18px;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+  color: #1B1212;
+}
+
+.picture {
+  height: 630px;
+  width: 450px;
+  margin-top: 80px;
+  margin-left: 180px;
+  margin-right: 100px;
+  display: inline-block;
+  border-radius: 20px;
+  background-color: rgba(43, 131, 96, .4);
+  box-shadow: 0px 5px 15px 8px rgba(0, 0, 0, .5);
+}
+
+.picture:hover {
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: .4s ease;
+  background-image: linear-gradient(210deg,#20B2AA, #00CED1, #40E0D0, #00FFFF, #E0FFFF, #FFF5EE, #FFFFFF);
+}
+
+.picture h4 {
+  height: 630px;
+  width: 400px;
+  text-align: left;
+  justify-content: left;
+  box-shadow: none;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  position: absolute;
+  opacity: 0;
+}
+
+.picture h4:hover {
+  opacity: 1;
+  letter-spacing: 3px;
+  color: yellow;
+  font-size: 38px;
+  font-family: FuturaDisplayBQ;
+}
+
+.group-photo {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 15px;
+  margin-top: 80px;
+  border-style: solid;
+  border-color: #2B835F;
+  border-width: 10px;
+}
+
+.group-photo-caption {
+  color: #2B835F;
+  font-size: 16px;
+  font-style: italic;
+  padding-left: 7em;
+}
+
+.friends-list {
+  width: 350px;
+  height: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 10px;
+  margin-top: 0;
+  display: block;
+}
+
+.friends-list img {
+  width: 90px;
+  height: 80px;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.friends-list img:hover {
+  background-color: #2B835F;
+  border-radius: 20px;
+  transition: .6s ease;
+}
+
+.deku-friends {
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+}
