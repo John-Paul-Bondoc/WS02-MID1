@@ -52,7 +52,7 @@
 
   p {
     font-size: 18px;
-    font-family: FuturaLightBT;
+    font-family: 'Bitter', serif;
     padding-left: 15px;
     padding-bottom: 10px;
     margin-top: 10px;
@@ -115,7 +115,7 @@
 
   .content li {
     list-style-type: square;
-    font-family: FuturaLightBT;
+    font-family: 'Bitter', serif;
     font-size: 18px;
     line-height: 20px;
     margin-top: 10px;
