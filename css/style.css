@@ -62,6 +62,10 @@
     color: #1B1212;
   }
 
+  p::first-letter {
+    text-transform: capitalize;
+  }
+
   footer {
     text-align: center;
     font-family: FuturaLightBT;
@@ -117,7 +121,7 @@
   .content li {
     list-style-type: square;
     font-family: 'Bitter', serif;
-    font-size: 19px;
+    font-size: 18px;
     line-height: 20px;
     margin-top: 10px;
     margin-right: 10px;
