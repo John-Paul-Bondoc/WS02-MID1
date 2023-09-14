@@ -6,6 +6,9 @@
 body {
   background-image: linear-gradient(to bottom, #2B835F, #76BA9F, #2B835F);
   padding-top: 50px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 header h1 {
@@ -96,7 +99,6 @@ header h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   line-height: 25px;
-  margin-top: 10px;
   color: #28282B;
 }
 
@@ -128,36 +130,37 @@ header h1 {
 }
 
 hr {
-  height: 2px;
-  background-color: #F9F6EE;
+  background-color: rgba(255, 255, 255, .8);
   margin-top: 5em;
 }
 
 .deku-friends {
   font-family: FuturaDisplayBQ;
-  font-size: 32px;
+  font-size: 48px;
   color: #F9F6EE;
   text-align: center;
-  margin-top: 0;
+  letter-spacing: .07em;
+  margin-top: 64px;
   margin-bottom: 5px;
 }
 
 .friends-list {
-  width: 230px;
-  height: 65px;
+  width: 500px;
+  height: 100px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 0;
+  margin-bottom: 64px;
+  margin-top: 16px;
   padding-bottom: 15px;
   display: block;
 }
 
 .friends-list img {
-  width: 60px;
-  height: 40px;
+  width: 120px;
+  height: 100px;
   margin-top: 10px;
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 16px;
+  margin-right: 8px;
   margin-bottom: 10px;
   margin-top: 5px;
   padding-top: 10px;
@@ -166,22 +169,22 @@ hr {
   padding-bottom: 15px;
   display: inline-block;
   filter: grayscale(100%);
-  border-style: solid;
-  border-color: #F9F6EE;
-  border-width: 2px;
   border-radius: 40px;
+  background-color: white;
+
 }
 
 .friends-list img:hover {
   filter: grayscale(0%);
-  background-color: #76BA9F;
   border-radius: 10px;
   transition: .5s ease;
 }
 
 footer {
   background-color: #28282B;
-  margin-top: 50px;
+  margin-top: 32px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 footer p {
@@ -189,8 +192,8 @@ footer p {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   color: #F9F6EE;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 3px 0 3px 0;
+  margin-bottom: 0;
 }
 
 .link a {
