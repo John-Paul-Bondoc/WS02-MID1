@@ -174,8 +174,13 @@ hr {
 
 .friends-list img:hover {
   filter: grayscale(0%);
-  border-radius: 70px;
+  background-color: #EBEAEA;
   transition: .5s ease;
+}
+
+.friends-list img:active {
+  background-color: #F9F6EE;
+  filter: grayscale(100%);
 }
 
 footer {
