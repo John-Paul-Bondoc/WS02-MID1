@@ -6,9 +6,7 @@
 body {
   background-image: linear-gradient(to bottom, #2B835F, #76BA9F, #2B835F);
   padding-top: 50px;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0;
 }
 
 header h1 {
@@ -169,14 +167,14 @@ hr {
   padding-bottom: 15px;
   display: inline-block;
   filter: grayscale(100%);
-  border-radius: 20px;
-  background-color: white;
+  border-radius: 30px;
+  background-color: #F9F6EE;
 
 }
 
 .friends-list img:hover {
   filter: grayscale(0%);
-  border-radius: 40px;
+  border-radius: 70px;
   transition: .5s ease;
 }
 
